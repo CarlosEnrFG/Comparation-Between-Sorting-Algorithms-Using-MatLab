@@ -116,6 +116,7 @@ element Remove_Heap(Heap *h)
         {
             break;
         }
+        LeftSon_i = (2 * Node) + 1;
     }
     return ret;
 }
