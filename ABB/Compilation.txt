@@ -1,1 +1,12 @@
-gcc TADArbolBin.o main.c -o main.exe
+COMPILATION:
+gcc TADArbolBin.o ABB_TEST.c -o ABB_TEST.exe 
+gcc TADArbolBin.o ABB_TIME.c -o ABB_TIME.exe 
+=====================================
+EXECUTION:
+ABB_TEST.exe n <numeros10millones.txt >>ABB_TEST.txt
+ABB_TIME.exe n <numeros10millones.txt >>ABB_TIME.txt
+=====================================
+.o Archive
+gcc -c TADArbolBin.c -o TADArbolBin.o
+
+
